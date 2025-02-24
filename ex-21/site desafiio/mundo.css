@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:idroid ;
+    src: url(idroid.otf);
+}
+body{
+background-color: antiquewhite;
+text-decoration: none;
+}
+
+
+
+header > h1{
+    text-align: center;
+    font-size: 40px;
+   padding-top: 2%;
+   margin-bottom: 35px;
+   text-shadow: rgba(0, 0, 0, 0.76) 1px 2px 2px;
+  
+}
+
+
+header > h2{
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.76) 1px 2px 2px;
+    margin-bottom: 35px;
+    font-size: 15px;
+}
+
+header > div{
+    margin-left: 15px;
+}
+
+div{
+    margin: -15px 0px;
+}
+
+div a:hover{
+    background-color: rgba(255, 255, 255, 0.123);
+
+}
+ 
+
+div> a{
+    transition-duration: .5s ;
+    border-radius: 5px;
+    color:rgb(149, 185, 154) ;
+    font-style:  unset;  
+    margin: 7px;
+    text-decoration: none;
+   padding: 10px;
+   
+}
+header{
+   
+   margin-top: -27px;
+    margin-left: -8px;
+    margin-right: -8px;
+    background: rgb(2,0,36);
+    background: linear-gradient(to bottom, rgb(0, 163, 68) 0%, rgb(0, 37, 16) 100%, rgb(0, 17, 7) 100%);
+    height: 200px;
+    font-family: "Lora";
+    color: aliceblue;
+    box-shadow: rgba(0, 70, 0, 0.233) 2px 6px 4px;
+    
+     
+}
+div.video{
+    padding: 20px;
+padding-bottom: 54%;
+    position: relative;
+  
+    background-color:rgb(49, 110, 8); ;
+}
+
+div.video > iframe{
+top: 10%;
+left:10% ;
+position: absolute;
+height: 80%;
+width:80%;
+}
+
+main{
+  min-width: 300px;
+  max-width: 1000px;
+    border: solid rgba(59, 252, 0, 0.342) 2px;
+
+ height:auto;
+
+    background-color: aliceblue;
+    box-shadow: rgba(0, 70, 0, 0.164) 0px 6px 6px 10px;
+  width:90%; 
+  margin: auto;
+ 
+}
+main > h1{
+text-align: justify;
+text-align: left;
+font-family: idroid;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 10px;
+color: darkgreen;
+text-shadow: rgba(0, 0, 0, 0.349) 2px 2px 2px;
+background: linear-gradient(to left, rgb(255, 255, 255) 0%, rgb(124, 252, 180) 100%, rgb(0, 253, 105) 100%);
+}
+
+main > p{
+    
+    text-align: justify;
+    text-decoration: none;
+    text-indent: 20px;
+    font-size:16px; 
+    font-family: "Oswald" ;
+ position: relative;
+ padding-left: 15px;
+ padding-right: 15px;
+}
+
+main > h2{
+    margin: auto;
+    text-align: left;
+    font-family: idroid;
+    padding-left: 15px;
+    padding-top: 10px;
+    color: darkgreen;
+    text-shadow: rgba(0, 0, 0, 0.349) 2px 2px 2px;
+    padding-right: 15px;
+    background: linear-gradient(to left, rgb(255, 255, 255) 0%, rgb(124, 252, 180) 100%, rgb(0, 253, 105) 100%);
+    }
+    
+    .gg{color: rgb(219, 255, 187);}
+    
+    
+    img{
+        height: 220px;
+        border-radius: 10px;
+        border: solid rgba(59, 252, 0, 0.342) 2px;
+     width: 55%;
+        display: block;
+        margin: auto;
+      }
+      
+      main > iframe{
+     
+        width: 100%;
+      }
+
+     
+      .diiv{
+        width: auto; 
+        margin: 0px 20px;
+       height: auto;
+        
+       
+        box-shadow: rgba(0, 70, 0, 0.164) 0px 0px 6px 10px;
+       ;
+        background-color: rgb(155, 255, 152);
+        border-radius: 0px 0px 15px 15px;
+      }
+      
+      .cima{
+        margin: -27px 20px; 
+      
+        width:auto;
+        height: auto;
+        margin-top: 60px;
+        background-color: rgb(49, 110, 8);
+        border-radius: 15px 15px 0px 0px;
+      
+      }
+   
+      div > h3{   
+       text-shadow:rgba(0, 0, 0, 0.349) 2px 2px 2px; ;
+        text-align: left;
+        text-decoration: none;
+        text-indent: 15px;
+        font-size:26px; 
+        font-family: "Oswald" ;
+    color: aliceblue;}
+
+    nav > p{ text-align: justify;
+        text-decoration: none;
+        text-indent: 20px;
+        font-size:16px; 
+        font-family: "Oswald" ;
+    padding: 0px 10px;
+margin: 0px;
+}
+
+nav > summary{
+    font-family: "Oswald" ;
+    padding-left: 5px;
+  
+}
+
+.dix{
+    text-decoration: none;
+    background-color: rgb(0, 255, 242);
+    color: black;
+    font-family: "Oswald";
+}
+
+section > a{
+text-decoration: none;
+background-color: rgb(0, 255, 242);
+color: black;
+font-family: "Oswald";
+
+}
+
+ul{columns: 2;}
+
+
+
+
+
+
+
